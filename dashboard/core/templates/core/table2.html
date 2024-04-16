@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Table Display</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <style>
+        table {
+          border-collapse: collapse;
+          {% comment %} width: 100%; {% endcomment %}
+          font-size:18px;
+          font-family:Arial;
+        }
+        
+        th, td {
+          padding: 2px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: skyblue;
+            color: white;
+          }
+        
+        </style>
+</head>
+<body>
+    <div class="container">
+        <table id="data-table" border="1" class="p-5">
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>URL</th>
+                    <th>Domain Functional</th>
+                    <th>SSL Valid</th>
+                    <th>Content Localized</th>
+                    <th>Visit</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for url, info in Tabledata.items %}
+                    <tr>
+                        <td>{{ info.Language }}</td>
+                        <td>{{ url }}</td>
+                        <td style="color: {% if info.domain_token %}green{% else %}red{% endif %};">{{ info.domain_token }}</td>
+                        <td style="color: {% if info.ssl_token %}green{% else %}red{% endif %};">{{ info.ssl_token }}</td>
+                        <td style="color: {% if info.content_token %}green{% else %}red{% endif %};">{{ info.content_token }}</td>
+                        <td><a href="{{url}}" target="_blank">Visit Website</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#data-table').DataTable();
+        });
+    </script>
+</body>
+</html>

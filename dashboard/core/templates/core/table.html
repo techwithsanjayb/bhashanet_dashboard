@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Display</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          font-size:18px;
+          font-family:Arial;
+        }
+        
+        th, td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: skyblue;
+            color: white;
+          }
+        tr:hover {background-color: coral;}
+
+        tr:nth-child(even){background-color: #f2f2f2}
+        </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>URL</th>
+                <th>Domain Functional</th>
+                <th>SSL Valid</th>
+                <th>Content Localized</th>
+                <th>Visit</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for url, info in Tabledata.items %}
+                <tr>
+                    <td>{{ info.Language }}</td>
+                    <td>{{ url }}</td>
+                    <td style="color: {% if info.domain_token %}green{% else %}red{% endif %};">{{ info.domain_token }}</td>
+                    <td style="color: {% if info.ssl_token %}green{% else %}red{% endif %};">{{ info.ssl_token }}</td>
+                    <td style="color: {% if info.content_token %}green{% else %}red{% endif %};">{{ info.content_token }}</td>
+                    <td><a href="{{url}}" target="_blank">Visit Website</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="row">
+        <div class="col-4">
+            <div id="chart_div">
+                {{ chart_div|safe }}
+            </div>
+        </div>   
+        <div class="col-4">
+            <div id="chart_div">
+                {{ chart_div2|safe }}
+            </div>
+        </div>  
+        <div class="col-4">
+            <div id="chart_div">
+                {{ chart_div3|safe }}
+            </div>
+        </div>         
+    </div>
+</body>
+</html>
