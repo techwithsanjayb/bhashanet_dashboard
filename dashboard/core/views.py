@@ -124,5 +124,41 @@ def update_json(request):
     
     # Convert dictionary back to JSON
     updated_json_data = json.dumps(data)
+
     return redirect('core:display_table2')
     # return render(request,'core/updatejson.html',{"updated_json_data":updated_json_data})
+
+
+
+
+from urllib.request import urlopen
+from urllib.error import HTTPError, URLError
+
+def check(request):
+    # URL to fetch
+    url = 'https://dpe.gov.in'
+
+    try:
+        # Open the URL and read its contents
+        with urlopen(url) as response:
+            # Check the HTTP status code
+            status_code = response.getcode()
+            print("codeeeeeeeeeeeeeeeeeeeeeeeeeeeeee----",status_code)
+            if 1:
+                # If the status code is 200 (OK), read the response content
+                html = response.read()
+                # Print the HTML content
+                print(html.decode('utf-8'))  # Decode bytes to UTF-8 and print
+            else:
+                # If the status code is not 200, print an error message
+                print(f'Error: HTTP status code {status_code}')
+                
+    except HTTPError as e:
+        # Handle HTTP errors
+        print(f'HTTPError: {e.code} - {e.reason}')
+        
+    except URLError as e:
+        # Handle URL errors
+        print(f'URLError: {e.reason}')
+
+

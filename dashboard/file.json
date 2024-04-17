@@ -88,5 +88,17 @@
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
+  },
+  "https://ଭାଷାନେଟ.ଭାରତ": {
+    "Language": "odia",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://dpe.gov.in/": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
   }
 }

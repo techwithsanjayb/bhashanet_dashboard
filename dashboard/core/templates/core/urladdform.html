@@ -6,19 +6,26 @@
     <title>Update Dashboard</title>
 </head>
 <body>
+ 
+        
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h1>Enter URL and Language</h1>
 
-<h1>Enter URL and Language</h1>
+                <form method="post" action="{% url 'core:update_json' %}">
+                    {% csrf_token %}
+                    <label for="url">URL:</label>
+                    <input type="text" id="url" name="url" required><br><br>
+                
+                    <label for="language">Language:</label>
+                    <input type="text" id="language" name="language" required><br><br>
+                
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+          </div>
+   
 
-<form method="post" action="{% url 'core:update_json' %}">
-    {% csrf_token %}
-    <label for="url">URL:</label>
-    <input type="text" id="url" name="url" required><br><br>
-
-    <label for="language">Language:</label>
-    <input type="text" id="language" name="language" required><br><br>
-
-    <button type="submit">Submit</button>
-</form>
 
 </body>
 </html>
