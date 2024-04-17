@@ -44,7 +44,7 @@
                     <tr>
                         <td>{{ info.Language }}</td>
                         <td>{{ url }}</td>
-                        <td style="color: {% if info.domain_token %}green{% else %}red{% endif %};">{{ info.domain_token }}</td>
+                        <td style="color: {% if info.domain_token %}green{% else %}red{% endif %};">{{ info.domain_token }}</td> 
                         <td style="color: {% if info.ssl_token %}green{% else %}red{% endif %};">{{ info.ssl_token }}</td>
                         <td style="color: {% if info.content_token %}green{% else %}red{% endif %};">{{ info.content_token }}</td>
                         <td><a href="{{url}}" target="_blank">Visit Website</a></td>

@@ -1,8 +1,92 @@
 {
-  "https://डीपीई.सरकार.भारत/": {
+  "https://www.csk.gov.in": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://डीओटी.सरकार.भारत": {
     "Language": "Hindi",
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
-  } 
+  },
+  "https://कार्मिकएवंप्रशिक्षणविभाग.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://dot.gov.in/": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://bhashanet.in/": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://भाषानेट.भारत/": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://ഭാഷാനെറ്റ്.ഭാരതം/": {
+    "Language": "Malayalam",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://tdil-dc.in": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://ildc.in": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "http://sanjayb.000.pe": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://कोंकणी.भाषानेट.भारत": {
+    "Language": "Konkani",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पा़रसीनेट.भारोत": {
+    "Language": "Santali",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://डेटामेल.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://ভাষানেট.ভাৰত": {
+    "Language": "Assamese",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://মণিপুরী.ভাষানেট.ভারত": {
+    "Language": "Manipuri",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  }
 }
