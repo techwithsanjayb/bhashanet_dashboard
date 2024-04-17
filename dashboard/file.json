@@ -1,47 +1,5 @@
 {
-  "https://www.csk.gov.in": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://डीओटी.सरकार.भारत": {
-    "Language": "Hindi",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://कार्मिकएवंप्रशिक्षणविभाग.सरकार.भारत": {
-    "Language": "Hindi",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://dot.gov.in/": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://bhashanet.in/": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://भाषानेट.भारत/": {
-    "Language": "Hindi",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://ഭാഷാനെറ്റ്.ഭാരതം/": {
-    "Language": "Malayalam",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://tdil-dc.in": {
+  "https://ict-ipr.in": {
     "Language": "English",
     "domain_token": "",
     "ssl_token": "",
@@ -53,11 +11,12 @@
     "ssl_token": "",
     "content_token": ""
   },
-  "http://sanjayb.000.pe": {
+  "https://bhashanet.in": {
     "Language": "English",
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
+<<<<<<< HEAD
   },
   "https://कोंकणी.भाषानेट.भारत": {
     "Language": "Konkani",
@@ -100,5 +59,7 @@
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
+=======
+>>>>>>> 515e60f2e6ea3ab009ff6e61cf837272472f63ca
   }
 }

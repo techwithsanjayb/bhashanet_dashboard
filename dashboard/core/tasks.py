@@ -1,20 +1,14 @@
+from celery import shared_task
+
 from django.shortcuts import render , redirect
 import requests
 import ssl
 import json
 from bs4 import BeautifulSoup
-import json
-import plotly.graph_objs as go
-import idna
-import punycode
-import idna
-import idna
-from urllib.parse import urlparse
 import certifi
-from core.tasks import crawler_task
 
-# Create your views here.
-def home(request):
+@shared_task(bind=True)
+def crawler_task(self):
     # Read the JSON file
     with open('file.json', encoding='utf-8' ) as f:
         data = json.load(f)
@@ -86,78 +80,4 @@ def home(request):
     with open('updated_file.json', 'w') as outfile:
         outfile.write(updated_json_data)
     # Print updated JSON
-    print(updated_json_data)
-    return render(request,'core/home.html',{'updated_json_data':updated_json_data})
-
-
-def display_table2(request):
-    with open('updated_file.json') as f:
-        Tabledata = json.load(f) 
-    return render(request, 'core/table2.html', {'Tabledata': Tabledata})
-
-
-def urladd(request):
-    
-    return render(request,'core/urladdform.html')
-
-
-def update_json(request):
-    new_url = request.POST.get('url')
-    new_lang = request.POST.get('language')
-   
-    # Read the JSON file
-    with open('file.json', encoding='utf-8' ) as f:
-        data = json.load(f)
-
-    # Add new key-value pair
-    data[new_url] = {
-        "Language": new_lang,
-        "domain_token": "",
-        "ssl_token": "",
-        "content_token": ""
-    }
-
-    # Write the updated JSON data back to the file
-    with open('file.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    
-    # Convert dictionary back to JSON
-    updated_json_data = json.dumps(data)
-    crawler_task.delay()
-    return redirect('core:display_table2')
-    # return render(request,'core/updatejson.html',{"updated_json_data":updated_json_data})
-
-
-
-
-from urllib.request import urlopen
-from urllib.error import HTTPError, URLError
-
-def check(request):
-    # URL to fetch
-    url = 'https://dpe.gov.in'
-
-    try:
-        # Open the URL and read its contents
-        with urlopen(url) as response:
-            # Check the HTTP status code
-            status_code = response.getcode()
-            print("codeeeeeeeeeeeeeeeeeeeeeeeeeeeeee----",status_code)
-            if 1:
-                # If the status code is 200 (OK), read the response content
-                html = response.read()
-                # Print the HTML content
-                print(html.decode('utf-8'))  # Decode bytes to UTF-8 and print
-            else:
-                # If the status code is not 200, print an error message
-                print(f'Error: HTTP status code {status_code}')
-                
-    except HTTPError as e:
-        # Handle HTTP errors
-        print(f'HTTPError: {e.code} - {e.reason}')
-        
-    except URLError as e:
-        # Handle URL errors
-        print(f'URLError: {e.reason}')
-
-
+    return "Done"
