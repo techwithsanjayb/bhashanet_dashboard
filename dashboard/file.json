@@ -5,61 +5,76 @@
     "ssl_token": "",
     "content_token": ""
   },
-  "https://ildc.in": {
+  "https://mha.gov.in": {
     "Language": "English",
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
   },
-  "https://bhashanet.in": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-<<<<<<< HEAD
-  },
-  "https://कोंकणी.भाषानेट.भारत": {
-    "Language": "Konkani",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://पा़रसीनेट.भारोत": {
-    "Language": "Santali",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://डेटामेल.भारत": {
+  "https://रक्षाजनसम्पर्कनिर्देशालय.सरकार.भारत": {
     "Language": "Hindi",
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
   },
-  "https://ভাষানেট.ভাৰত": {
-    "Language": "Assamese",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://মণিপুরী.ভাষানেট.ভারত": {
-    "Language": "Manipuri",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://ଭାଷାନେଟ.ଭାରତ": {
-    "Language": "odia",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://dpe.gov.in/": {
+  "https://cdac.in": {
     "Language": "English",
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
-=======
->>>>>>> 515e60f2e6ea3ab009ff6e61cf837272472f63ca
+  },
+  "https://nashik.gov.in": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://solapur.gov.in": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://bhopal.nic.in/en/": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://datamail.in": {
+    "Language": "English",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://भारतीयनागरिकता.सरकार.भारत": {
+    "Language": "HIndi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://औषध.सरकार.भारत": {
+    "Language": "HIndi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://चलोभारत.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://प्रसारभारती.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पीआईबी.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
   }
 }

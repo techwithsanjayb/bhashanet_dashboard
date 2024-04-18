@@ -12,7 +12,7 @@ import idna
 from urllib.parse import urlparse
 import certifi
 from core.tasks import crawler_task
-
+from django.contrib import messages
 # Create your views here.
 def home(request):
     # Read the JSON file
@@ -124,6 +124,7 @@ def update_json(request):
     # Convert dictionary back to JSON
     updated_json_data = json.dumps(data)
     crawler_task.delay()
+    messages.info(request,"Your data would be populated in IDN Readiness Index List within 24 Hours ")
     return redirect('core:display_table2')
     # return render(request,'core/updatejson.html',{"updated_json_data":updated_json_data})
 
