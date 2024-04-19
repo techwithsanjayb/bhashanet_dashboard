@@ -1,65 +1,11 @@
 {
-  "https://ict-ipr.in": {
+  "https://bhashanet.in": {
     "Language": "English",
     "domain_token": "",
     "ssl_token": "",
     "content_token": ""
   },
-  "https://mha.gov.in": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://रक्षाजनसम्पर्कनिर्देशालय.सरकार.भारत": {
-    "Language": "Hindi",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://cdac.in": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://nashik.gov.in": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://solapur.gov.in": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://bhopal.nic.in/en/": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://datamail.in": {
-    "Language": "English",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://भारतीयनागरिकता.सरकार.भारत": {
-    "Language": "HIndi",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://औषध.सरकार.भारत": {
-    "Language": "HIndi",
-    "domain_token": "",
-    "ssl_token": "",
-    "content_token": ""
-  },
-  "https://चलोभारत.सरकार.भारत": {
+  "https://जलशक्तिमंत्रालयपेयजलऔरस्वच्छताविभाग.सरकार.भारत": {
     "Language": "Hindi",
     "domain_token": "",
     "ssl_token": "",
@@ -71,7 +17,319 @@
     "ssl_token": "",
     "content_token": ""
   },
+  "https://स्वास्थ्यअनुसंधानविभाग.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://अल्पसंख्यककार्यमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पीएमइंडिया.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://वाणिज्यविभाग.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
   "https://पीआईबी.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://इस्पातमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमओएसपीआई.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://मंत्रिमंडलसचिवालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमओएचएफडब्लयू.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पऊवि.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://रक्षा.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://सामाजिकन्यायऔरअधिकारितामंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://दीपम.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://आवासनऔरशहरीकार्यमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://उपभोक्तामामले.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://केमिकल्स.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पृथ्वीविज्ञानमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://वायएएस.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://जनजातीयकार्यमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://खानमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पेट्रोलियमएवंप्राकृतिकगैसमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://कृषिकल्याण.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://विद्युतमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पर्यटनमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमआईबी.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमडोनर.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://डीओपीटी.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://कार्मिकऔरप्रशिक्षणविभाग.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमएसडीई.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://उद्योगसंवर्धनऔरआंतरिकव्यापारविभाग.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://शिपमिन.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://राजभाषा.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमएनआरई.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पंचायत.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://नीति.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://सूक्ष्मलघुऔरमध्यमउद्यममंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमपीए.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://गृहमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://डीएआरपीजी.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://डीओटी.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://कार्मिकएवंप्रशिक्षणविभाग.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एस3वास.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://राजभाषाक्लाउड.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एसटीक्यूसी.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://सीएसके.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://इंडिया.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://एमईआईटीवाई.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://रजिस्ट्री.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://शिक्षामंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://सड़कपरिवहनऔरराजमार्गमंत्रालय.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://डीपीई.सरकार.भारत": {
+    "Language": "Hindi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://डीएएचडी.सरकार.भारत": {
+    "Language": "HIndi",
+    "domain_token": "",
+    "ssl_token": "",
+    "content_token": ""
+  },
+  "https://पीपीए.सरकार.भारत": {
     "Language": "Hindi",
     "domain_token": "",
     "ssl_token": "",

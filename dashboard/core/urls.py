@@ -8,6 +8,7 @@ urlpatterns = [
     path('update_json', views.update_json, name="update_json"),
     path('urladd', views.urladd, name="urladd"), 
     path('check', views.check, name="check"),
+    path('add_urls', views.add_urls, name="add_urls"),
 
     
      

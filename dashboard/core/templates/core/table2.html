@@ -14,6 +14,7 @@
           border-collapse: collapse;
           font-size:18px;
           font-family:Arial;
+          
         }
         
         th, td {
@@ -44,6 +45,7 @@
         <table id="data-table" border="1" class="p-5">
             <thead>
                 <tr>
+                    <th>S.N.</th>
                     <th>Language</th>
                     <th>URL</th>
                     <th>Domain Functional</th>
@@ -55,6 +57,7 @@
             <tbody>
                 {% for url, info in Tabledata.items %}
                     <tr>
+                        <td>{{ forloop.counter }}</td>
                         <td>{{ info.Language }}</td>
                         <td>{{ url }}</td>
                         <td style="color: {% if info.domain_token %}green{% else %}red{% endif %};">{{ info.domain_token }}</td> 
@@ -69,9 +72,12 @@
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.2.3/js/dataTables.fixedHeader.min.js"></script>
+    
     <script>
         $(document).ready(function() {
             $('#data-table').DataTable();
+            
         });
     </script>
 </body>

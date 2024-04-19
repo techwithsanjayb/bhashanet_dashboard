@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 import certifi
 from core.tasks import crawler_task
 from django.contrib import messages
+import pandas as pd
 # Create your views here.
 def home(request):
     # Read the JSON file
@@ -48,7 +49,7 @@ def home(request):
             # CHECK LANGUAGE OF CONTENT 
             try:
                 # Fetch HTML content from the URL
-                response = requests.get(url,verify=False)
+                response = requests.get(url,verify=False,allow_redirects=True, max_redirects=60)
                 print("RESPONSE CODE ---------------------------- ",response.status_code)
                 if response.status_code == 200:
                     # Parse HTML content
@@ -63,9 +64,13 @@ def home(request):
                         headers = {'User-Agent': 'Mozilla/5.0'}  # Example of headers
                         myobj = {"ip_text": text}
                         x = requests.post(service_url, headers=headers, json= myobj)
-                        data[url]["content_token"] = json.loads(x.text)['Output']
+                        lang_token = json.loads(x.text)['Output']
+                        if (lang_token == "latin"):
+                            data[url]["content_token"] = "English"
+                        else:
+                            data[url]["content_token"] = lang_token
                     except requests.ConnectionError as e:
-                        print("Exception -----", e)
+                        print("Language Content Exception -----", e)
                         print("Service Not Available ")
                         data[url]["content_token"] = "Service Not Available"
                 else:
@@ -162,3 +167,37 @@ def check(request):
         print(f'URLError: {e.reason}')
 
 
+def add_urls(request):
+    # Load the existing JSON data
+    existing_data = {
+        "https://bhashanet.in": {
+            "Language": "English",
+            "domain_token": "",
+            "ssl_token": "",
+            "content_token": ""
+        }
+    }
+
+    # Read data from the Excel file
+    excel_file = "url_excel_file.xlsx"  # Replace with the path to your Excel file
+    df = pd.read_excel(excel_file)
+
+    # Iterate over each row in the DataFrame
+    for index, row in df.iterrows():
+        url = row["URL"]
+        url = "https://"+url
+        language = row["Language"]
+
+        # Update the existing JSON data with the new URL and language
+        existing_data[url] = {
+            "Language": language,
+            "domain_token": "",
+            "ssl_token": "",
+            "content_token": ""
+        }
+        
+        # Save the updated JSON data to a file
+    output_file = "updated_data.json"  # Specify the path for the output JSON file
+    with open(output_file, "w") as f:
+        json.dump(existing_data, f, indent=2)
+    print(f"Updated JSON data has been saved to {output_file}")
