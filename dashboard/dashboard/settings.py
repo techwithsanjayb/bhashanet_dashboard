@@ -77,11 +77,19 @@ WSGI_APPLICATION = 'dashboard.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'idn_dashboard_db',
+        'USER': 'root',
+        'PASSWORD': 'g!$t',
+        'HOST': 'db1-staging.pune.cdac.in',
+        'PORT': '3306',
+        'OPTIONS': {
+            'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"',
+            'charset': 'utf8mb4',
+        },
+        'CONN_MAX_AGE': 600,  # 10 minutes in seconds
+    },
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
