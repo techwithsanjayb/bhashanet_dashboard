@@ -14,7 +14,49 @@ import certifi
 from core.tasks import crawler_task
 from django.contrib import messages
 import pandas as pd
+from .forms import idn_dashboard_form
 # Create your views here.
+
+
+    
+def idn_dashboard_view(request):
+    idn_dashboard_form_obj = idn_dashboard_form()
+    
+    if request.method == 'POST':
+        form = idn_dashboard_form(request.POST)
+        # english_domain = request.POST.get('English_domain')
+        # idn_domain=request.POST.get('IDN_domain')
+        # idn_language =request.POST.get('Idn_language')
+        # print("english domain-----------",english_domain)
+        # print("idn domain-----------",idn_domain)
+        # print("language---------", idn_language)
+
+        # Check if form is valid or not and any params is not null
+        if form.is_valid():
+            form_obj = form.save(commit=False)
+            print('form_OBJ',form_obj)
+
+            form_obj.content_language = 'False'
+            form_obj.ssl_configuration_status='False'
+            form_obj.idn_domain_running_status='False'
+            form_obj.Remark='test'
+
+            
+            try:
+                print("inside save")
+                form_obj.save()
+            except Exception as e:
+                print('e',e)
+            return render(request, 'core/test.html', {'idn_dashboard_form_obj': "your entry submitted successfully"})
+        else:
+            print("not submitting ", form.errors)
+            return render(request, 'core/urladdform.html', {'idn_dashboard_form_obj': idn_dashboard_form_obj}) 
+
+    else:
+        return render(request, 'core/urladdform.html', {'idn_dashboard_form_obj': idn_dashboard_form_obj})
+   
+
+
 def home(request):
     # Read the JSON file
     with open('file.json', encoding='utf-8' ) as f:
@@ -128,7 +170,7 @@ def update_json(request):
     
     # Convert dictionary back to JSON
     updated_json_data = json.dumps(data)
-    crawler_task.delay()
+    ##crawler_task.delay()
     messages.info(request,"Your data would be populated in IDN Readiness Index List within 24 Hours ")
     return redirect('core:display_table2')
     # return render(request,'core/updatejson.html',{"updated_json_data":updated_json_data})

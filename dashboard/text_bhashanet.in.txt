@@ -1,0 +1,278 @@
+Bhashanet : Empowering Multilingual Internet
+Skip to main Content
+Assistance
+Feedback
+Select languages
+English
+Hindi-हिंदी
+Assamese-অসমীয়া
+Bengali-বাংলা
+Bodo-बरʼ
+Dogri-डोगरी
+Gujarati-ગુજરાતી
+Kannada-ಕನ್ನಡ
+Kashmiri-کٲشُر
+Konkani-कोंकणी
+Maithili-मैथिली
+Malayalam-മലയാളം
+Manipuri-মণিপুরী
+Marathi-मराठी
+Nepali-नेपाली
+Odia-ଓଡିଆ
+Punjabi-ਪੰਜਾਬੀ
+Sanskrit-संस्कृत
+Santali-संथाली
+Sindhi-सिंधी
+Tamil-தமிழ்
+Telugu-తెలుగు
+Urdu- اردو
+Go
+Home
+About
+UA India Programme
+.bharat IDN-ccTLDs
+Resources
+Tools
+UA & Multilingual Internet Report
+UA Documents
+Best Practices
+UA Sample Code
+Events
+Become UA Ready
+IDN Websites
+Technical Corner
+BhashaNet
+A Multilingual Internet and Universal Acceptance Initiative
+Provides an eco system to enable citizen to easily create, communicate, transact, process and retrieve information with ease in digital medium without language barrier.
+Shri S. Krishnan
+Secretary (Ministry of Electronics and Information Technology)
+Internet has transformative potential in democratizing access to information, yet its true efficacy lies in its multilingual adaptation. By championing the Universal Acceptance ini
+... Read More
+Shri Sushil Pal
+Joint Secretary (Ministry of Electronics and Information Technology)
+Collection of networks defines the internet but networks are incomplete without the Universal Acceptance. For accelerating digital inclusion, the one thing that we can do certainly
+... Read More
+Dr. Devesh Tyagi
+CEO ( NIXI )
+India is proud to champion a more inclusive and accessible internet for all. At NIXI, we are firmly committed to fostering a universal acceptance environment where everyone can acc
+... Read More
+Previous
+Next
+Internationalized Domain Names (IDN)
+Website address in local language
+(निक्सी.भारत)
+Email Address Internationalization (EAI)
+E-mail ID in local language
+(मेरानाम@निक्सी.भारत)
+Universal Acceptance (UA)
+All web applications, devices should support the local language website name and email address.
+BhashaNet Initiative
+Vision
+Objective
+Mission
+To provide a truly multilingual internet, where local language website name and local language email id, work everywhere seamlessly.
+To connect with users in their own languages. Bhashanet is working towards enabling people from remote locations and different socioeconomic backgrounds to access the multilingual Internet in India.
+Encouraging use of local language website name and
+email id.
+Promoting awareness of local language url and
+email id.
+Developing policies and regulations.
+Supporting technical collaboration.
+Engagement of Website owners, Web-Developer
+Community, Web Security experts.
+Announcements
+FICCI
+Empowering Entrepreneurs: Navigating Success with Universal Acceptance and Email Address Internationalization FICCI
+- To be held on 12 April 2024, Jaipur (Rajasthan) India
+Read More
+ICANN
+The Internet Corporation for Assigned Names and Numbers (ICANN) published the 2022 Internationalized Domain Name (IDN) Annual Report. The report provides an
+overview of the status of IDNs at the top and second levels of the Domain Name System (DNS), as well as the IDN-related work being done by the ICANN organization (ICANN org) and community.
+Read More
+Websites In IDN
+Universal Acceptance Websites compliance with Internationalized Domain Names (IDNs) list
+View List
+Gallery
+View Gallery
+Making your website Universal Acceptance ready: Way Forward
+Workshop on Making Your email platform UA Ready
+Curtain Raiser
+Frequently Asked Questions
+How can we register domain names in Indian Languages ?
+Check the availability of your desired domain name: You can check if your desired domain name is available in Indian languages by visiting the website of the National Internet Exchange of India (NIXI) or any accredited registrar that offers Indian language domains.
+Choose a registrar: Once you have identified an available domain name, you need to choose a registrar that offers Indian language domains. NIXI provides a list of accredited registrars on its website that offer Indian language domains.
+Provide the necessary information: You will need to provide your personal and contact information, as well as the desired domain name and the language/script in which it is written. You may also need to provide additional documentation or verification for Indian language domains.
+Complete the registration process: Once you have provided the necessary information, you can complete the registration process through the registrar's website. You may need to pay a registration fee and agree to the terms and conditions of the registrar.
+Configure your domain: Once your domain is registered, you can configure it for use with your website, email, or other online services.
+It's important to note that the availability of domain names in Indian languages may vary depending on the script and language. Additionally, Indian language domains may have specific requirements or restrictions, so it's important to check with the registrar or NIXI for more information.
+How Universal Acceptance can be achieved?
+To achieve universal acceptance, it is important for all stakeholders in the Internet ecosystem, including domain name registries, email service providers, application developers, and others, to adopt and implement technical standards that support non-ASCII domain names and email addresses. Additionally, education and awareness-raising efforts can help promote universal acceptance and ensure that users are aware of the options available to them.
+What are the Universal Acceptance Guidelines?
+The Universal Acceptance (UA) Guidelines are a set of best practices and recommendations for supporting the use of all domain names and email addresses, regardless of their script, language, or format. The guidelines were developed by the Universal Acceptance Steering Group (UASG), a community-led initiative that works to promote Universal Acceptance of all domain names and email addresses.
+The UA Guidelines provide detailed recommendations for software and system developers, domain name registries, email service providers, and other stakeholders involved in the management and implementation of Internet systems and applications. The guidelines cover a wide range of topics related to Universal Acceptance, including:
+- Domain name registration and administration
+- Email address validation and handling
+- IDN implementation and support
+- Web and application development
+- Testing and validation
+- User education and awareness
+How can we get Email ID in Indian Languages?
+To get an email ID in Indian languages, you can follow these steps:
+Choose an email service provider: There are several email service providers that offer support for email IDs in Indian languages, such as Google, Microsoft, and Rediffmail. You can choose an email service provider that offers support for your preferred Indian language.
+Check the availability of your desired email ID: Once you have chosen an email service provider, you can check if your desired email ID is available in Indian languages. You may need to check the provider's website or contact their support team for more information.
+Create a new email account: If your desired email ID is available, you can create a new email account with your chosen email service provider. You will need to provide your personal and contact information, as well as choose your desired email ID and language.
+Configure your email settings: Once your email account is created, you can configure your email settings to suit your preferences, such as setting up filters, forwarding, or other email management options.
+Start using your email ID: Once your email account is set up and configured, you can start using your email ID in Indian languages for sending and receiving emails.
+It's important to note that not all email service providers offer support for email IDs in Indian languages, and the availability of languages may vary depending on the provider. Additionally, some Indian languages may have specific requirements or restrictions, so it's important to check with the email service provider for more information.
+Help Desk
+For Registering Domain Names Under सरकार.भारत (or equivalent)
+Toll Free Number :
+1800111555, 011-24305000
+Website :https://servicedesk.nic.in
+For Registering Domain Names Under .भारत (or equivalent )
+Contact : +91-11-48202040, +91-11-48202011, +91-11-48202002
+Email : uasupport@nixi.in, rishab@nixi.in, rajiv@nixi.in, support@bhashanet.in
+Shri S. Krishnan
+Secretary (Ministry of Electronics and Information Technology)
+Internet has transformative potential in democratizing access to information, yet its true efficacy lies in its multilingual adaptation. By championing the Universal Acceptance initiative, India stands as a shining beacon of diversity, embodying the essence of universal acceptance and inclusivity.
+Shri Sushil Pal
+Joint Secretary (Ministry of Electronics and Information Technology)
+Collection of networks defines the internet but networks are incomplete without the Universal Acceptance. For accelerating digital inclusion, the one thing that we can do certainly is to use the language of the people to connect them to the Internet.
+Dr. Devesh Tyagi
+CEO ( NIXI )
+India is proud to champion a more inclusive and accessible internet for all. At NIXI, we are firmly committed to fostering a universal acceptance environment where everyone can access information and participate online in their preferred language.
+Pre-Global UA Day event
+27th March, 2023 (FICCI Auditorium)
+Technical Session
+Timings
+Agenda Items
+Making your website Universal Acceptance ready: Way Forward
+10:00 AM – 10:15 AM
+Welcome address by Sh. T Santhosh (Scientist ‘E’, Internet Governance Division, Ministry of Electronics & Information Technology)
+Introduction to Universal Acceptance by Dr. Ajay Data, UASG Chair
+10:15 AM – 12:00 PM
+Making your website Universal Acceptance ready: Way Forward
+Session Chair – Mr. Edmon Chung, ICANN Board Member
+Session Moderator – Dr. Ajay Data, UASG Chair
+Session Details – Presentation and discussion on incorporating elements of universal acceptance in websites
+Participants – Students, Developers, Researchers, Media & Content Creators
+Live Workshop Session
+Workshopon Making Your email platform UA Ready
+12:15 PM - 01:45 PM
+Live Workshop on Making Your email platform UA Ready
+Session Chair – Ms. Theresa Swinehart, Senior Vice-President – ICANN
+Workshop Coaches –
+Sh. Mahesh Kulkarni (ex-Senior Director (Corporate R&D) & HoD GIST at CDAC)
+Sh. Nitin Walia (Director, XgenPlus)
+Session Details – This will be a live demonstration of EAI ready platform and understanding future compatibility thereof
+Participants – Students, Developers, Researchers, Media & Content Creators
+Curtain Raiser
+03:00 PM – 03:30 PM
+Welcome by Sh. Anil Kumar Jain, CEO (NIXI)
+Universal Acceptance work in India by Dr. Ajay Data, UASG Chair
+Conceptand significance of Universal Acceptance by Mr. Jia-Rong Low, Vice-President & MD, APAC, ICANN
+Importance of UA for multi-cultural society in India by Sh. Bhuvnesh Kumar, IAS – Additional Secretary, Ministry of Electronics & Information Technology, Government of India
+Chief Guest Address by Sh. Rajeev Chandrasekhar, Hon’ble Minister of State,
+Ministry of Electronics & Information Technology & Skill Development & Entrepreneurship, Government of India
+Vote of Thanks by Smt. Asha Nangia, Scientist ‘G’ and Group Coordinator, Ministry of Electronics & Information Technology
+03:30 PM – 03:45 PM
+Media Interaction Session
+03:45 PM – 04:00 PM
+Networking & Tea/Coffee Break
+07:00 PM – 10:00 PM
+GALA Dinner with Cultural Programme
+28th March, 2023 (Manekshaw Center)
+Inaugural
+10:30 AM – 10:33 AM
+Welcome by Sh. Anil Kumar Jain, CEO- NIXI
+10:33 AM – 10:35 AM
+Bouquet to Dignitaries
+10:35 AM – 10:40 AM
+UA concept by Dr. Ajay Data, UASG Chair
+10:40 AM – 10:45 AM
+Work on UA by ICANN by Ms. Sally Costerton, CEO, ICANN.
+10:45 AM – 10:50 AM
+Special Address by Ms. Tripti Sinha, Chair- ICANN
+10:50 AM – 11:20 AM
+“Socio-Economic aspects of UA and Multilingual Internet and its impact on public policy”
+Sh. Abhishek Singh, President & CEO- NeGD, Ministry of Electronics & Information Technology,
+Government of India
+Prof. Uday Narayan Singh- Dean, Faculty of Arts &
+Chair- Professor of Linguistics at AMITY University,
+Gurugram
+Sh. Venki Nishthala- CTO, Rediff.com
+11.20 AM – 11.25 AM
+Address by Shri Alkesh Kumar Sharma, Secretary, Ministry of Electronics and IT, Government of India
+11:25 AM – 11:45 AM
+Chief Guest Address by Sh. Rajeev Chandrasekhar,
+Hon’ble Minister of State, Ministry of Electronics & Information Technology & Skill Development & Entrepreneurship
+11:45 AM
+Vote of Thanks by Mr. Jia-Rong Low, Vice-President & MD, APAC, ICANN
+12:00 Noon – 01: 00 PM
+Panel Discussion Session on “Technology enablement for universal acceptance - challenges and mitigation”
+Session Chair – Ms. Sally Costerton, CEO- ICANN
+Session Moderator- Sh. T. Santhosh, Scientist ‘E’, Ministry of Electronics & Information Technology.
+Panelists -
+Ms. Sarika Guliyani, Director, and Head-ICT, FICCI-ILIA Division, FICCI
+Sh. Balendu Sharma Dadhich, Director, Local Languages, Microsoft
+Mr. Edmon Chung, ICANN Board Member
+01:00 PM – 02:00 PM
+Case Studies Presentation
+Session Chair – Sh. Bhuvnesh Kumar, IAS – Additional Secretary, Ministry of Electronics &
+Information Technology, Government of India
+Rajasthan Government Case Study by Sh. Ashish Gupta (IAS) Commissioner and Secretary, Department of Information Technology & Communications, Government of Rajasthan
+Global Case Study by Mr. Edmon Chung, ICANN Board Member
+Bhashini and Multilingual Internet
+03:00 PM- 04:00 PM
+Session Chair: Sh. Amit Agarwal, Additional Secretary,
+Ministry of Electronics & Information
+Technology, Government of India
+Sh. Amitabh Nag, CEO, Bhashini
+Dr. Saurabh Garg, CEO- UIDAI
+Sh. Imtaiyazur Rehman, MD & CEO- UTI
+Sh. Sanjay Kumar Rakesh, CEO, CSC
+Sh. Nitin Wali, Sr. Director, South-Asia, Global Stakeholder Engagement (ICANN)
+04:00 PM – 04:03 PM
+Welcome Address by Sh. Bhuvnesh Kumar, IAS – Additional Secretary, Ministry of Electronics & Information Technology, Government of India
+04:03 PM – 04:06 PM
+Opening Address by Dr Ajay Data, UASG Chair
+04:06 PM – 04:11 PM
+Audio Visual on UA in India
+04:11 PM – 04:16 PM
+Special Address by Dr. Vinton G. Cerf, Vice president and Chief Internet Evangelist for Google (Live on Web)
+04:16 PM – 04:21 PM
+Keynote Address by Ms. Tripti Sinha, Chair ICANN
+04:21 PM – 04:26 PM
+Keynote Address by Sh. Alkesh Kumar Sharma, IAS, Secretary, Ministry of Electronics & Information Technology, Government of India
+04:26 PM – 04:31 PM
+Interaction of Hon’ble Minister Shri Ashwani Vaishnaw, Ministry of Electronics & Information Technology, Railways and Communications with Beneficiaries
+04:31 PM – 04:41 PM
+Chief Guest Address by Hon’ble Minister Shri Ashwini Vaishnaw, Ministry of Electronics & Information Technology, Railways and Communications, Government of India
+04.41 PM – 04.43 PM
+Vote of Thanks by Shri Anil Kumar Jain, CEO, NIXI
+04:43 PM
+High Tea
+UA Day-2024
+Visit website for UA Day-2024 registration
+Useful Links
+registry.in
+registry.gov.in
+coednssecurity.in
+mailindia.in
+unicode.org
+iana.org
+registrars list
+Other Links
+Home
+FAQs
+Blogs
+Gallery
+Privacy Policy
+Terms & Conditions
+Dashboard
+Contact us
+National Internet Exchange of India (NIXI) 9th Floor, B-Wing, Statesman House,148, Barakhamba Road, New Delhi 110001
+Email: uasupport[at]nixi[dot]in
+Phone: +91-11-48202000
+Go to Top
+Contents on website are under continuous updation. 2024 © Copyright NIXI All rights reserved.
